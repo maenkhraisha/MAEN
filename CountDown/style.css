@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Kufam:ital,wght@1,900&family=Permanent+Marker&display=swap');
+* {
+    font-family: 'Fuzzy Bubbles', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Kufam', sans-serif;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 20;
+    color: bisque;
+}
+
+.small-text {
+    font-size: 2rem;
+    display: flex;
+    place-content: inherit;
+    text-align: center;
+    color: bisque;
+}
+
+.count-el {
+    text-align: center;
+}
+
+.count-el span {
+    font-size: 2rem;
+    color: ivory;
+}
+
+.home {
+    position: initial;
+}
